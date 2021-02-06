@@ -1,0 +1,23 @@
+				REACT JS
+1.Single page application
+2.tags are known as components
+3.app structure:
+	.git
+	node_modules
+	public
+	src
+	.gitignore
+	package.json
+	pakage-lock.json
+	README.md
+
+4.we need to checkwhether node js available in our pc or not?
+5.if yes,
+	open cmd type node -v
+	npm node -v
+6.if no,
+	download node js from internet(url nodejs.org)
+7.how to create react application?
+        1.npm(node package manager) i/install create-react-app -g
+        2.create-react-app  appname
+        3.npx(node package runner) create-react-app appname
