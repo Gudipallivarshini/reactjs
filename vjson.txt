@@ -1,0 +1,112 @@
+				JSON
+
+	JAVASCRIPT OBJECT NOTATION
+	JSON STRUCTURE:  {
+			 "details":{"name":"rajesh",
+			               "mobile":"63487932"},
+			 "data":{"name":"rajesh",
+			               "mobile":"63487932"},
+ 			}
+                LINK:jsonlint.com
+                METHODS:
+		   ajax method
+		   fetch method
+1.var a=[1,2,3,4,5]
+  for(var i=0;i<a.length;i++){
+    console.log("value"+a[i])
+}
+1.var a=[234,543,234]
+  for(i in a){
+  console.log(a[i])
+}
+3.var a=[234,543,234]
+  for(i of a){
+  console.log(i)
+}
+a
+(3)(a)NORMAL FUNCTIONS : by using function keyword 
+    [234, 543, 234]
+    syntax:
+   function add(){alert("hai")}
+   add()
+  (b)ARROWFUNTIONS:it doesnt need funtion keyword
+   syntax:
+   var add=()=>{alert ("this is arrow function")}
+    add()
+   #if parameter is not passed then it is anonymous function
+  (c)MAPFUNCTIONS:
+    a.map(i=>{
+    console.log(i)
+    })
+   (d)FILTERFUNCTIONS:
+    a.map(i=>{
+    return i*i
+    })
+DIFFERENCE BETWEEN NORMAL FUNCTION vs ARROW FUNCTIONS
+   #When we are working with normalfunction we can construct normal function i.e, they are constructable
+   #Arrow functions accept call backs but dont act as a constructor
+				
+				ES6 PROPERTIES
+				
+1.ARROW
+2.FOR IN
+3.FOR OF
+4.MAP 
+5.FILTER
+6.				CONS & LET
+1.LET & CONS ARE SCOPE OF VARIABLES
+2.WHILE WE ARE CREATING THE VARIABLE WITH CONS KEYWORD,THE VARIABLE OR DATA IS NON CHANGABLE
+     CONS PIE=3.14
+WHILE WE ARE WORKING WITH OBJ/ARR THEN THE DATA OF  OBJ/ARR WOULD BE MODIFIED
+7.TEMPLETE LITERALS(`):
+     BY USING THESE, WE CAN DECLARE MULTIPLE LINE STRING
+     WE CAN CALL VARIABLES
+    var name="r"
+    console.log(`my name is ${}`)  
+8.CLOUSERS:when we are working with nested functions
+9.CLASSES:
+ 	by using cls keyword
+	1st letter must be capital
+	SYNTAX:
+	class Details{
+	   constructor(name){
+	    this.name=name
+	}
+	}
+	var obj=new Details("varshini")
+	obj.name
+10.SPREAD & REST :
+     spread operator is used to get  the array values in single variable
+     rest: if we use syntax with functions
+     syntax:
+                 var a=[2,4,6,60]                (spread)                     let a=[1,2,3,4]
+                 ...a			                           let b=[5,6]     let c=[...a,...b]
+                    
+                                                                (rest)
+                 function add(a,...b){
+                          alert(a)                                                           (...a,b) incorrect
+                 alert(b)
+                }
+                 add(1,2,3)
+
+11.HOISTING:Hoisting is nothing but declaring a variable without var /let keyword we can define it and next we can
+define a variable is nothing but hoisting
+                let a=5;  
+                console.log(a)
+12.DESTRUCTURE:ARRAYS,OBJECTS
+     ARRAY:in destructure format there is no need of using index values
+                  var x=[1,2,3,4]
+                  let[a,b,c,d]=x
+	console.log("a",a)
+    OBJECT:in destructure no need of using obj
+	var obj={						let{name:n,mail:m}=obj
+                  "name":"varshini",					n
+                  "mail":"rajesh.n@apssdc.in"	}
+	obj.name
+
+
+
+
+
+
+
